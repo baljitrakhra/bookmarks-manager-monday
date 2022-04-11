@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require 'sinatra/reloader'
+require './lib/bookmark'
 
 class BookmarkManager < Sinatra::Base
   configure :development do
@@ -8,6 +9,11 @@ class BookmarkManager < Sinatra::Base
 
   get '/' do
     erb :index
+  end
+
+  get '/bookmarks' do
+    @list = Bookmark.all
+    erb :bookmarks
   end
 
   # # Start the server if this file is executed directly (do not change the line below)

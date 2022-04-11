@@ -1,4 +1,3 @@
-
 feature 'bookmark' do
   scenario 'user can view the list of bookmarks' do
     visit('/bookmarks')

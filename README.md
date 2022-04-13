@@ -16,3 +16,10 @@ And here is an image of the wireframe so far:
 * Connect to the database using psql command \c bookmark_manager;
 * Run the query we have saved in the file 01_create_bookmarks_table.sql
 
+# Test Database Installation
+
+* Connect to psql
+* Create the database using psql command CREATE DATABASE bookmark_manager_test;
+* Connect to the database using psql command \c bookmark_manager_test;
+* Run the query we have saved in the file 01_create_bookmarks_table.sql
+* 

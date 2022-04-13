@@ -6,8 +6,7 @@ describe Bookmark do
       connection = PG.connect(dbname: 'bookmark_manager_test')
       Bookmark.add_bookmark(url: 'http://amazon.co.us', title: 'Amazon')
       bookmarks = Bookmark.all
-      p bookmarks
-      expect(bookmarks.title).to eq 'Amazon'
+      expect(bookmarks.first.title).to eq 'Amazon'
     end
   end
 end

@@ -9,6 +9,7 @@ class Bookmark
     @title = title
     @url = url
   end
+  
   def self.all
     if ENV['ENVIRONMENT'] == 'test'
       connection = PG.connect(dbname: 'bookmark_manager_test')

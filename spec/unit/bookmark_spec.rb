@@ -9,8 +9,8 @@ describe Bookmark do
      
      bookmarks = Bookmark.all
      
-     expect(bookmarks['url']).to eq 'http://www.makersacademy.com'
-     expect(bookmarks['title']).to eq 'Makers Academy'
+     expect(bookmarks.first.url).to eq "http://www.makersacademy.com"
+     expect(bookmarks.first.title).to eq "Makers Academy"
     end
   end
 end

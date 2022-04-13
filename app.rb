@@ -21,7 +21,7 @@ class BookmarkManager < Sinatra::Base
   end
 
   post '/bookmarks/new' do
-    Bookmark.add_bookmark(params[:bname])
+    Bookmark.add_bookmark(params[:bname], params[:title])
     redirect '/bookmarks'
   end
   # # Start the server if this file is executed directly (do not change the line below)

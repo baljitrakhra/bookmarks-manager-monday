@@ -15,4 +15,9 @@ feature 'bookmark' do
     expect(page).to have_content "http://www.destroyallsoftware.com"
     expect(page).to have_content "http://www.google.com"
   end
+
+  scenario 'page will have a button to add a new bookmark' do
+    visit('/bookmarks')
+    expect(page).to have_button("Add-bookmark")
+  end
 end

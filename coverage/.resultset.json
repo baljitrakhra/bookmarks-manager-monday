@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/balrakhra/Projects/book_manager/bookmarks-manager-monday/spec/features/bookmark_index_spec.rb": {
+      "/Users/almorcrette/coding/projects/bookmark-manager/bookmarks-manager-wednesday/spec/features/bookmark_index_spec.rb": {
         "lines": [
           1,
           null,
@@ -26,7 +26,7 @@
           null
         ]
       },
-      "/Users/balrakhra/Projects/book_manager/bookmarks-manager-monday/spec/features/bookmark_new_spec.rb": {
+      "/Users/almorcrette/coding/projects/bookmark-manager/bookmarks-manager-wednesday/spec/features/bookmark_new_spec.rb": {
         "lines": [
           1,
           1,
@@ -39,7 +39,7 @@
           null
         ]
       },
-      "/Users/balrakhra/Projects/book_manager/bookmarks-manager-monday/spec/features/form_spec.rb": {
+      "/Users/almorcrette/coding/projects/bookmark-manager/bookmarks-manager-wednesday/spec/features/form_spec.rb": {
         "lines": [
           1,
           1,
@@ -52,7 +52,7 @@
           null
         ]
       },
-      "/Users/balrakhra/Projects/book_manager/bookmarks-manager-monday/spec/features/index_spec.rb": {
+      "/Users/almorcrette/coding/projects/bookmark-manager/bookmarks-manager-wednesday/spec/features/index_spec.rb": {
         "lines": [
           1,
           null,
@@ -64,7 +64,7 @@
           null
         ]
       },
-      "/Users/balrakhra/Projects/book_manager/bookmarks-manager-monday/spec/unit/bookmark_add_spec.rb": {
+      "/Users/almorcrette/coding/projects/bookmark-manager/bookmarks-manager-wednesday/spec/unit/bookmark_add_spec.rb": {
         "lines": [
           1,
           null,
@@ -80,7 +80,7 @@
           null
         ]
       },
-      "/Users/balrakhra/Projects/book_manager/bookmarks-manager-monday/spec/unit/bookmark_spec.rb": {
+      "/Users/almorcrette/coding/projects/bookmark-manager/bookmarks-manager-wednesday/spec/unit/bookmark_spec.rb": {
         "lines": [
           1,
           1,
@@ -104,6 +104,6 @@
         ]
       }
     },
-    "timestamp": 1649862039
+    "timestamp": 1649863898
   }
 }

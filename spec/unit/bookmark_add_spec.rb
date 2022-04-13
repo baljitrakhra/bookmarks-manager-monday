@@ -6,7 +6,7 @@ describe Bookmark do
       connection = PG.connect(dbname: 'bookmark_manager_test')
       Bookmark.add_bookmark('http://amazon.co.us', 'Amazon')
       bookmarks = Bookmark.all
-      expect(bookmarks).to include 'Amazon'
+      expect(bookmarks[0]).to include 'Amazon'
     end
   end
 end

@@ -3,7 +3,8 @@
 <input type="submit" value="Add-bookmark">
 </form>
 <ul>
-  <% @list.each do |bookmark| %> 
-    <li><%= bookmark%> </li>
+  <% @list.each do |hash| hash.each do |key, value| %> 
+    <li><a href="<%= value %> "><%= key %> </a>
+  <% end %>
   <% end %>
 </ul>     

@@ -5,13 +5,12 @@ feature 'bookmark' do
     connection = PG.connect(dbname: 'bookmark_manager_test')
 
     # Add the test data
-    Bookmark.add_bookmark('http://www.makersacademy.com', 'Makers Academy')
-    Bookmark.add_bookmark('http://www.destroyallsoftware.com', 'Destroy all')
-    Bookmark.add_bookmark('http://www.google.com', 'Google for all')
+    Bookmark.add_bookmark(url: 'http://www.makersacademy.com', title: 'Makers Academy')
+    Bookmark.add_bookmark(url: 'http://www.destroyallsoftware.com', title: 'Destroy all')
+    # Bookmark.add_bookmark(url: 'http://www.google.com', title: 'Google for all')
     visit('/bookmarks')
-    expect(page).to have_content "Makers Academy"
-    expect(page).to have_content "Destroy all"
-    expect(page).to have_content "Google for all"
+    expect(page).to have_link('Makers Academy', href: 'http://www.makersacademy.com')
+    expect(page).to have_link('Destroy all', href: 'http://www.destroyallsoftware.com')
   end
 
   scenario 'page will have a button to add a new bookmark' do

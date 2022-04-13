@@ -16,6 +16,13 @@ class BookmarkManager < Sinatra::Base
     erb :bookmarks
   end
 
+  get '/form' do
+    erb :form
+  end
+
+  post '/bookmarks/new' do
+    redirect '/bookmarks'
+  end
   # # Start the server if this file is executed directly (do not change the line below)
   run! if app_file == $0
 end

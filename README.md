@@ -22,4 +22,4 @@ And here is an image of the wireframe so far:
 * Create the database using psql command CREATE DATABASE bookmark_manager_test;
 * Connect to the database using psql command \c bookmark_manager_test;
 * Run the query we have saved in the file 01_create_bookmarks_table.sql
-* 
+* Run the query we have saved in the file 02_add_title_to_bookmarks.sql

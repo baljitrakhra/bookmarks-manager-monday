@@ -1,0 +1,18 @@
+<h1> List of Bookmarks</h1>
+<form action="/form" method="get">
+<input type="submit" value="Add-bookmark">
+</form>
+<ul>
+   
+    <li class="bookmark" id="bookmark-660">
+    <a href="http://google.com/ " target="_blank"> Google homepage </a>
+    <form action ="/bookmarks/660" method="post">
+      <input type='hidden' name='_method' value='DELETE'/>
+      <input type="submit" value="Delete">
+    </form>
+    <form action ="/bookmarks/660/edit" method="get">
+       <input type="submit" value="Edit">  
+    </form>
+    </li>
+  
+</ul>     

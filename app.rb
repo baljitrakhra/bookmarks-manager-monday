@@ -13,6 +13,7 @@ class BookmarkManager < Sinatra::Base
 
   get '/bookmarks' do
     @list = Bookmark.all
+    Bookmark.all
     erb :bookmarks
   end
 
@@ -21,7 +22,7 @@ class BookmarkManager < Sinatra::Base
   end
 
   post '/bookmarks/new' do
-    p Bookmark.add_bookmark(url: params[:bname], title: params[:title])
+    Bookmark.add_bookmark(url: params[:bname], title: params[:title])
     redirect '/bookmarks'
   end
   # # Start the server if this file is executed directly (do not change the line below)

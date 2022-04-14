@@ -38,6 +38,19 @@
           null
         ]
       },
+      "/Users/balrakhra/Projects/book_manager/bookmarks-manager-monday/spec/features/deleting_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/balrakhra/Projects/book_manager/bookmarks-manager-monday/spec/features/form_spec.rb": {
         "lines": [
           1,
@@ -101,6 +114,6 @@
         ]
       }
     },
-    "timestamp": 1649932376
+    "timestamp": 1649938834
   }
 }

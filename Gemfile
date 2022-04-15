@@ -10,6 +10,7 @@ gem 'simplecov-console', require: false
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'webrick'
+gem 'sinatra-flash'
 
 group :development, :test do
   gem 'rubocop', '1.20'

@@ -6,4 +6,5 @@ feature 'form' do
     click_button 'Submit'
     expect(page).to have_content 'Amazon'
   end
+  
 end  

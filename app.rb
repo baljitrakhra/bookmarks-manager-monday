@@ -2,6 +2,7 @@ require 'sinatra/base'
 require 'sinatra/reloader'
 require './lib/bookmark'
 require_relative 'database_connection_setup.rb'
+require 'uri'
 
 class BookmarkManager < Sinatra::Base
   configure :development do
@@ -16,6 +17,7 @@ class BookmarkManager < Sinatra::Base
     @list = Bookmark.all
     erb :bookmarks
   end
+
 
   get '/form' do
     erb :form
